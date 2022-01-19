@@ -1,0 +1,124 @@
+body {
+  font-family: 'Oxygen',sans-serif;
+}
+
+#logo {
+  font-weight: bold;
+}
+
+.nav-bar-el {
+  color: #777;
+  padding: 19px 10px 19px 10px;
+  display: flex;
+  justify-self: center;
+}
+
+.nav-bar-el:link {
+  text-decoration: none;
+}
+
+.nav-bar-el:hover {
+  color: #f4473a;
+}
+
+.img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%); 
+  width: 100%;
+}
+
+#read-more-btn:link {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 7px 35px;
+  background: rgba(255,255,255,0.2);
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.carousel-control-next {
+  width: 50px;
+  height: 100px;
+  background-color: #f4473a;
+  margin-top: 225px;
+}
+.carousel-control-prev {
+  width: 50px;
+  height: 100px;
+  background-color: #f4473a;
+  margin-top: 225px;
+}
+
+.cap {
+  font-family: inherit;
+}
+
+#div3 {
+  background-color:#f4473a;
+  display: flex;
+  align-items: center;
+  padding: 40px 100px 10px; 
+}
+
+h4 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#red-sec-text {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+#latest-div {
+  margin-left: 140px;
+  margin-right: 140px;
+  border-bottom: 1px solid lightgrey;
+}
+
+#latest-title {
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+#latest-info {
+  color: #aaa;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+#latest-photo-sec {
+  margin-left: 140px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#photo {
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+.photo-text {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#div5 {
+  background-color: black;
+}
+
+#div6 {
+  background-color: grey;
+}
